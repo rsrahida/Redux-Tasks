@@ -20,3 +20,15 @@ export const resetTimer = () => ({
 export const tick = () => ({
   type: "TICK",
 });
+
+export const login = () => {
+  return {
+    type: "LOGIN",
+  };
+};
+
+export const logout = () => {
+  return {
+    type: "LOGOUT",
+  };
+};
